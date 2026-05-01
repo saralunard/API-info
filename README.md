@@ -8,7 +8,7 @@ asset_ids = ["6j5TiqTFl6o", "A204252258767106", "A138391271962845"] #those are j
 
 content_owner_id = "Yb*********"
 
-access_token = ""
+access_token = "x****"
 
 base_url = "https://www.googleapis.com/youtube/partner/v1/assets"
 
@@ -27,7 +27,7 @@ response = requests.get(url, headers=headers)
 
 
 if response.status_code == 200:
-    # Parse the JSON response
+   
     return response.json()
 else:
     print(f"Failed to fetch ownership for asset {asset_id}: {response.status_code} - {response.text}")
