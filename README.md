@@ -1,7 +1,5 @@
 # API-info
 
-This script calls the YouTube API to request specific ownership info. 
-
-The Problem: Manually checking 100+ YouTube asset ownership was time-consuming.
-The Solution: An AI-augmented Python script that leverages the YouTube Partner API to fetch ownership data at scale.
-The Impact: Standardized CSV reporting that enables non technical team to read results easily and independently of Engineering.
+The Problem: Manually checking YouTube asset ownership for thousands of IDs is a massive bottleneck for rights teams.
+The Solution: A Python-based automation that leverages the YouTube Partner API to fetch ownership ratios and IDs instantly.
+The Impact: Reduces manual reporting time from hours to seconds and eliminates human error in royalty distribution.
